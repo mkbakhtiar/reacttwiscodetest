@@ -1,13 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Raleway', sans-serif !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.logo-header{
+    width:250px;
+}
+.navbar .container{
+    /* justify-content: center !important; */
+    padding: 25px;
+}
+.navbar-expand-md .navbar-collapse {
+    justify-content: center;
+
+}
+.leftHead{
+    flex: 1;          /* shorthand for: flex-grow: 1, flex-shrink: 1, flex-basis: 0 */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.faSortDown{
+    margin-top: -7px;
+    margin-right: 20px;
+}
+.logoHead{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.langGear{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+}
+.navbar{
+    border-top:solid 10px #ffcb01;
+}
+.jumbotronTheme{
+    background-color: #ffcb01;
+    padding: 25px;
+}
+.jumbotronTheme p{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0 !important;
+}
+
+
+/* Home Page */
+.HomePage{
+    padding:100px 0;
+}
+.HomePage h3{
+    font-weight: bold;
+}
+.HomePageBody label{
+    font-weight: bold;
+    margin-top:20px;
+}
+input[type=checkbox] {
+    margin-left:20px;
+    margin-right:5px;
+    border-width:1px;
+    border-color:#ffcb01;
+    border-radius: 0 !important;
+}
+.parentFirst{
+    margin-left:0 !important;
+}
+.HomePageBody span{
+    color:red;
+    font-size:205x;
+}
+.HomePageBody h4{
+font-weight:bold;
+margin-top:50px;
+}
+.faCalendar{
+    padding: .375rem !important;
+    background-color: #ffffff !important;
+    border-radius: 0 !important;
+    color:#909090 !important;
+    font-size:1.5rem !important;
+    border-right:none !important;
+}
+.monthTxt{
+    border-left:none !important;
+}
+.privacyDesc p{
+    font-style: italic;
+    font-weight:600;
+}
+.switchSection{
+    padding-top:50px;
+}
+.btnSubmitSection{
+    display: flex;
+    justify-content: flex-end;
+}
+.btnCreate{
+    margin-top:50px !important;
+
+    padding:15px 30px !important;
+    background-color: #ffcb01 !important;
+    font-weight:bold !important;
+    color:#000000 !important;
+    border:none !important;
 }
